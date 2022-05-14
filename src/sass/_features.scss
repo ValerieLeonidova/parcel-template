@@ -1,0 +1,35 @@
+.features {
+  // .features__list
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  // .features__item
+
+  &__item {
+    flex: 0 1 calc((100% - 30px) / 3);
+    background-color: teal;
+    color: black;
+    &--main {
+      background-color: blue;
+      color: white;
+    }
+  }
+
+  // .features__title
+
+  &__title {
+    font-size: 26px;
+  }
+
+  // .features__description
+
+  &__description {
+    font-size: 16px;
+  }
+}
